@@ -1,5 +1,5 @@
 IML Hackathon - Task 2
-A Machine Learning model for predicting the locations and size of metastases in breast cancer patients.
+A Random Forest based Machine Learning model for predicting the locations and size of metastases in breast cancer patients.
 
 
 Usage
