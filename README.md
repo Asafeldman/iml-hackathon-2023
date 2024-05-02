@@ -18,8 +18,8 @@ The dataset includes 65,798 anonymized records across train and test sets, each 
 
 ## Installation
 ```bash
-git clone [repository-url]
-cd [repository-directory]
+git clone https://github.com/Asafeldman/iml-hackathon-2023
+cd https://github.com/Asafeldman/iml-hackathon-2023
 pip install -r requirements.txt
 ```
 
