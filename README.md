@@ -1,8 +1,35 @@
-# IML Hackathon - Task 2
-A Random Forest based Machine Learning model for predicting the locations and size of metastases in breast cancer patients.
 
+# Breast Cancer Attributes Prediction
+
+## Overview
+This project is part of the IML Hackathon 2023, focusing on the prediction of medical characteristics of breast cancer patients based on anonymized data provided by an Israeli medical center. Our goal is to assist doctors by predicting metastasis sites and tumor sizes, thereby validating clinical decisions and reducing the need for expensive tests.
+
+## Data
+The dataset includes 65,798 anonymized records across train and test sets, each with 34 features. Files:
+- `train.feats.csv`
+- `test.feats.csv`
+- `train.labels.0.csv` for metastases
+- `train.labels.1.csv` for tumor size
+
+## Tasks
+1. **Predicting Metastases**: Predict the sites of metastases from patient data.
+2. **Predicting Tumor Size**: Estimate the size of the tumor in millimeters.
+3. **Unsupervised Data Analysis**: Optional analysis to discover patterns or insights in the data.
+
+## Installation
+```bash
+git clone [repository-url]
+cd [repository-directory]
+pip install -r requirements.txt
+```
 
 ## Usage
-1. Change the filename (X=‘filename.csv’) in the main function within main.py according to the dataset’s name.
-2. Execute the Python script main.py.
-3. As mentioned in the task's description, the output files are 1.csv and 2.csv.
+Run the prediction models using:
+```bash
+python model.py
+```
+
+## Evaluation
+Predictions are evaluated on:
+- Micro and Macro average F1 scores for metastasis prediction.
+- Mean squared error for tumor size prediction.
